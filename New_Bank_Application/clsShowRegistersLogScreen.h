@@ -1,11 +1,9 @@
 #pragma once
-
 #include <iostream>
 #include "clsScreen.h"
 #include <iomanip>
 #include <fstream>
 #include "clsUser.h"
-
 
 class clsShowRegistersLogScreen :protected clsScreen
 {

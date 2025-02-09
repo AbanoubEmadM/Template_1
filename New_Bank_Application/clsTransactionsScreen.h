@@ -7,7 +7,6 @@
 #include "clsWithdrawScreen.h"
 #include "clsTotalBalancesScreen.h"
 #include "clsTransferScreen.h"
-#include "clsTransferLogScreen.h"
 
 using namespace std;
 
@@ -61,7 +60,7 @@ private:
     static void _ShowTransferLogScreen()
     {
         //cout << "\n Transfer Screen will be here.\n";
-        clsTransferLogScreen::ShowTransferLogScreen();
+        clsTransferScreen::ShowTransferScreen();
 
     }
 
