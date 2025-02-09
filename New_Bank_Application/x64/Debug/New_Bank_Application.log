@@ -1,0 +1,224 @@
+﻿  New_Bank_Application.cpp
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\New_Bank_Application.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(39,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(44,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(56,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(193,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(324,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(372,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(206,12): warning C4240: nonstandard extension used: access to 'clsBankClient::stTrnsferLogRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'New_Bank_Application.cpp')
+      C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(152,12):
+      see declaration of 'clsBankClient::stTrnsferLogRecord'
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(28,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(162,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(163,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(164,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,30): error C2653: 'clsDate': is not a class or namespace name
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,39): error C3861: 'GetSystemDateTimeString': identifier not found
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,65): error C2677: binary '+': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+  (compiling source file 'New_Bank_Application.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3225,62):
+      could be 'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3219,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3213,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)': template parameter '_Elem' is ambiguous
+              C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+              could be 'char'
+              C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+              or       'unknown-type'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from 'std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3207,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'const _Elem *const ' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3194,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3188,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3182,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3171,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3158,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3147,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)': template parameter '_Elem' is ambiguous
+              C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+              could be 'char'
+              C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+              or       'unknown-type'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3134,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const _Elem *const ' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3122,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'unknown-type'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4474,5):
+      or       'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from 'std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1940,50):
+      or       'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)'
+          C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(176,62):
+          'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from 'std::string'
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(421,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsBankClient.h(434,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\New_Bank_Application.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\New_Bank_Application.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsUser.h(198,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'New_Bank_Application.cpp')
+      C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsUser.h(26,12):
+      see declaration of 'clsUser::stLoginRegisterRecord'
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsMainScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsInputValidate.h(115,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsInputValidate.h(119,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsMainScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsClientListScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsClientListScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsMainScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsMainScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsAddNewClientScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsAddNewClientScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsAddNewClientScreen.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsAddNewClientScreen.h(47,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsMainScreen.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsDeleteClientScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsDeleteClientScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsDeleteClientScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsDeleteClientScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsDeleteClientScreen.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsMainScreen.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsTotalBalancesScreen.h(52,56): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsTransferScreen.h(43,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsTransferScreen.h(48,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'New_Bank_Application.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsTransactionsScreen.h(10,10): error C1083: Cannot open include file: 'clsTransferLogScreen.h': No such file or directory
+  (compiling source file 'New_Bank_Application.cpp')
+  
+  clsUsersListScreen.cpp
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(39,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'clsUsersListScreen.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(44,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'clsUsersListScreen.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(56,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'clsUsersListScreen.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(193,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'clsUsersListScreen.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(324,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'clsUsersListScreen.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsString.h(372,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'clsUsersListScreen.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsUtil.h(64,5): warning C4102: 'defualt': unreferenced label
+  (compiling source file 'clsUsersListScreen.cpp')
+  
+C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsUser.h(198,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'clsUsersListScreen.cpp')
+      C:\Users\OEN\Desktop\New_Bank_Application\New_Bank_Application\clsUser.h(26,12):
+      see declaration of 'clsUser::stLoginRegisterRecord'
+  
+  Generating Code...
